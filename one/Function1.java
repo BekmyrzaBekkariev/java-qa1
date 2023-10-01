@@ -1,24 +1,23 @@
+package one;
 // Классы и объекты
 
-package classandobj;
+public class Function1 {
 
-public class Function {
 	public static void main(String[] args) {
-		hello();
-
 		secondHello("Nika");
 		secondHello("Who ?");
 
-		SquareQ s = new SquareQ(5);
+		Square1 s = new Square1(5);
 		System.out.println("Площадь квадрата " + s.l + " состовляет " + area(s));
 
-		RectangleQ r = new RectangleQ(4, 3);
+		Rectangle1 r = new Rectangle1(4, 3);
 // Мы писали так до конструктора так после мы можем просто написать значение в RectangleQ
 //		r.a = 4;
 //		r.b = 5;
 
 		System.out.println("Площадь прямоугольника " + r.a + " и " + r.b + " равно " + area(r));
 	}
+
 
 	public static void hello() {
 		System.out.println("Hello Bekmyrza Never Give Up");
@@ -28,16 +27,20 @@ public class Function {
 		System.out.println("Love of My Life " + somebody + "!");
 	}
 
-	public static double area (SquareQ s) {
+	public static double area(Square1 s) {
 		return s.l * s.l;
 	}
 
-	public static double area (RectangleQ r) {
+	public static double area(Rectangle1 r) {
 		return r.a * r.b;
 	}
 
 
 }
+
+
+
+
 
 
 

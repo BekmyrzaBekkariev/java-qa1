@@ -1,6 +1,6 @@
-package classandobj;
+package one;
 
-public class RectangleQ {
+public class Rectangle1 {
 	public static void main(String[] args) {
 
 	}
@@ -11,7 +11,7 @@ public class RectangleQ {
 
 	// Создали конструктор
 	// Подробнее написано в SquareQ.java
-	public RectangleQ(double a, double b) {
+	public Rectangle1(double a, double b) {
 		this.a = a;
 		this.b = b;
 	}
