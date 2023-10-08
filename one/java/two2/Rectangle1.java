@@ -1,4 +1,4 @@
-package one;
+package two2;
 
 public class Rectangle1 {
 	public static void main(String[] args) {

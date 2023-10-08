@@ -1,4 +1,5 @@
-package one;
+package two2;
+
 public class Method2 {
 
 	// Функция  - это именовонный фрагмент кода
@@ -18,7 +19,7 @@ public class Method2 {
 
 
 		Square2 s = new Square2(2323);
-		System.out.println("Площадь квадрата " + s.l + " равна " + s.area());
+		System.out.println("Площадь квадрата " + s.lila + " равна " + s.area());
 
 		Rectangle2 r = new Rectangle2(234,234);
 		System.out.println("Площадь прямоугольника " + r.a + " и " + r.b +" равна " + s.area());
@@ -30,7 +31,7 @@ public class Method2 {
 		// будем использовать класс home
 
 		// Укожите возраст
-		home hm = new home(1);
+		home hm = new home(23);
 		System.out.println(hm.age + " лет  " + hm.ageDay() + " дней"
 						+ "\n или же \n" +
 		hm.age + " лет  " + hm.ageMon() + " Месяцев "

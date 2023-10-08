@@ -1,5 +1,4 @@
-package one;
-// Классы и объекты
+package two2;// Классы и объекты
 
 public class Function1 {
 

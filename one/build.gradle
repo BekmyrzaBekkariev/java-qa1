@@ -1,0 +1,23 @@
+// Создвем файл и пишем тама build.gradle и вуоля
+
+apply plugin: 'java'
+apply plugin: 'application'
+mainClassName = 'one.Method2'
+
+// Ещё пишем откуда нужно загружать
+repositories{
+    mavenCentral()
+}
+
+// Пишем вот так и вставляем
+dependencies{
+    // вставляем
+    implementation 'org.testng:testng:7.8.0'
+}
+
+// НУжно проиндоксировать репозитории File - Setting - Bild - Maven - Repository - =
+// Выбираем maven и update
+
+// Открываем GRadle - View - Too Windows -- Gradle
+// Или же в правом боку есть кнопка
+

@@ -1,18 +1,11 @@
-// Создвем файл и пишем тама build.gradle и вуоля
-
 apply plugin: 'java'
 apply plugin: 'application'
-mainClassName = 'one.Method2'
 
-// Ещё пишем откуда нужно загружать
-repositories{
+repositories {
     mavenCentral()
 }
 
-// Пишем вот так и вставляем
-dependencies{
-    // вставляем
-    implementation 'org.testng:testng:7.8.0'
+dependencies {
+    implementation group: 'org.testng', name: 'testng', version: '7.8.0'
+
 }
-
-

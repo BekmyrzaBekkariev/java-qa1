@@ -1,4 +1,4 @@
-package one;
+package two2;
 
 public class Square1 {
 	public static void main(String[] args) {
@@ -13,5 +13,9 @@ public class Square1 {
 	// 2 - это аргумент функции
 	public Square1(double l) {
 		this.l = l;
+	}
+
+	public double area() {
+		return 0;
 	}
 }
